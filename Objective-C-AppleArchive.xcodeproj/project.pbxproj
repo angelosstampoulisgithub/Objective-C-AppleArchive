@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D68742AC2CF64135006DBC7E /* libAppleArchive.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D68742AA2CF64135006DBC7E /* libAppleArchive.tbd */; };
+		D68742AD2CF64135006DBC7E /* libswiftAppleArchive.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D68742AB2CF64135006DBC7E /* libswiftAppleArchive.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68742692CF638FC006DBC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D687424B2CF638FA006DBC7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68742522CF638FA006DBC7E;
+			remoteInfo = "Objective-C-AppleArchive";
+		};
+		D68742732CF638FC006DBC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D687424B2CF638FA006DBC7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68742522CF638FA006DBC7E;
+			remoteInfo = "Objective-C-AppleArchive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D68742532CF638FA006DBC7E /* Objective-C-AppleArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-AppleArchive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68742682CF638FC006DBC7E /* Objective-C-AppleArchiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-AppleArchiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68742722CF638FC006DBC7E /* Objective-C-AppleArchiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-AppleArchiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68742AA2CF64135006DBC7E /* libAppleArchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleArchive.tbd; path = usr/lib/libAppleArchive.tbd; sourceTree = SDKROOT; };
+		D68742AB2CF64135006DBC7E /* libswiftAppleArchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAppleArchive.tbd; path = usr/lib/swift/libswiftAppleArchive.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D68742552CF638FA006DBC7E /* Objective-C-AppleArchive */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-AppleArchive";
+			sourceTree = "<group>";
+		};
+		D687426B2CF638FC006DBC7E /* Objective-C-AppleArchiveTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-AppleArchiveTests";
+			sourceTree = "<group>";
+		};
+		D68742752CF638FC006DBC7E /* Objective-C-AppleArchiveUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-AppleArchiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68742502CF638FA006DBC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68742AC2CF64135006DBC7E /* libAppleArchive.tbd in Frameworks */,
+				D68742AD2CF64135006DBC7E /* libswiftAppleArchive.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68742652CF638FC006DBC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687426F2CF638FC006DBC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D687424A2CF638FA006DBC7E = {
+			isa = PBXGroup;
+			children = (
+				D68742552CF638FA006DBC7E /* Objective-C-AppleArchive */,
+				D687426B2CF638FC006DBC7E /* Objective-C-AppleArchiveTests */,
+				D68742752CF638FC006DBC7E /* Objective-C-AppleArchiveUITests */,
+				D68742A92CF64135006DBC7E /* Frameworks */,
+				D68742542CF638FA006DBC7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D68742542CF638FA006DBC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68742532CF638FA006DBC7E /* Objective-C-AppleArchive.app */,
+				D68742682CF638FC006DBC7E /* Objective-C-AppleArchiveTests.xctest */,
+				D68742722CF638FC006DBC7E /* Objective-C-AppleArchiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68742A92CF64135006DBC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68742AA2CF64135006DBC7E /* libAppleArchive.tbd */,
+				D68742AB2CF64135006DBC7E /* libswiftAppleArchive.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68742522CF638FA006DBC7E /* Objective-C-AppleArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687427C2CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchive" */;
+			buildPhases = (
+				D687424F2CF638FA006DBC7E /* Sources */,
+				D68742502CF638FA006DBC7E /* Frameworks */,
+				D68742512CF638FA006DBC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D68742552CF638FA006DBC7E /* Objective-C-AppleArchive */,
+			);
+			name = "Objective-C-AppleArchive";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-AppleArchive";
+			productReference = D68742532CF638FA006DBC7E /* Objective-C-AppleArchive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68742672CF638FC006DBC7E /* Objective-C-AppleArchiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687427F2CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchiveTests" */;
+			buildPhases = (
+				D68742642CF638FC006DBC7E /* Sources */,
+				D68742652CF638FC006DBC7E /* Frameworks */,
+				D68742662CF638FC006DBC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D687426A2CF638FC006DBC7E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D687426B2CF638FC006DBC7E /* Objective-C-AppleArchiveTests */,
+			);
+			name = "Objective-C-AppleArchiveTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-AppleArchiveTests";
+			productReference = D68742682CF638FC006DBC7E /* Objective-C-AppleArchiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68742712CF638FC006DBC7E /* Objective-C-AppleArchiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68742822CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchiveUITests" */;
+			buildPhases = (
+				D687426E2CF638FC006DBC7E /* Sources */,
+				D687426F2CF638FC006DBC7E /* Frameworks */,
+				D68742702CF638FC006DBC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68742742CF638FC006DBC7E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D68742752CF638FC006DBC7E /* Objective-C-AppleArchiveUITests */,
+			);
+			name = "Objective-C-AppleArchiveUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-AppleArchiveUITests";
+			productReference = D68742722CF638FC006DBC7E /* Objective-C-AppleArchiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D687424B2CF638FA006DBC7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D68742522CF638FA006DBC7E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D68742672CF638FC006DBC7E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D68742522CF638FA006DBC7E;
+					};
+					D68742712CF638FC006DBC7E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D68742522CF638FA006DBC7E;
+					};
+				};
+			};
+			buildConfigurationList = D687424E2CF638FA006DBC7E /* Build configuration list for PBXProject "Objective-C-AppleArchive" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D687424A2CF638FA006DBC7E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D68742542CF638FA006DBC7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68742522CF638FA006DBC7E /* Objective-C-AppleArchive */,
+				D68742672CF638FC006DBC7E /* Objective-C-AppleArchiveTests */,
+				D68742712CF638FC006DBC7E /* Objective-C-AppleArchiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68742512CF638FA006DBC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68742662CF638FC006DBC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68742702CF638FC006DBC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D687424F2CF638FA006DBC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68742642CF638FC006DBC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687426E2CF638FC006DBC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D687426A2CF638FC006DBC7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68742522CF638FA006DBC7E /* Objective-C-AppleArchive */;
+			targetProxy = D68742692CF638FC006DBC7E /* PBXContainerItemProxy */;
+		};
+		D68742742CF638FC006DBC7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68742522CF638FA006DBC7E /* Objective-C-AppleArchive */;
+			targetProxy = D68742732CF638FC006DBC7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D687427A2CF638FC006DBC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D687427B2CF638FC006DBC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D687427D2CF638FC006DBC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-AppleArchive/Objective_C_AppleArchive.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		D687427E2CF638FC006DBC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-AppleArchive/Objective_C_AppleArchive.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D68742802CF638FC006DBC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-AppleArchive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-AppleArchive";
+			};
+			name = Debug;
+		};
+		D68742812CF638FC006DBC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-AppleArchive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-AppleArchive";
+			};
+			name = Release;
+		};
+		D68742832CF638FC006DBC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Objective-C-AppleArchive";
+			};
+			name = Debug;
+		};
+		D68742842CF638FC006DBC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-AppleArchiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Objective-C-AppleArchive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D687424E2CF638FA006DBC7E /* Build configuration list for PBXProject "Objective-C-AppleArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687427A2CF638FC006DBC7E /* Debug */,
+				D687427B2CF638FC006DBC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D687427C2CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687427D2CF638FC006DBC7E /* Debug */,
+				D687427E2CF638FC006DBC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D687427F2CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68742802CF638FC006DBC7E /* Debug */,
+				D68742812CF638FC006DBC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68742822CF638FC006DBC7E /* Build configuration list for PBXNativeTarget "Objective-C-AppleArchiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68742832CF638FC006DBC7E /* Debug */,
+				D68742842CF638FC006DBC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D687424B2CF638FA006DBC7E /* Project object */;
+}
